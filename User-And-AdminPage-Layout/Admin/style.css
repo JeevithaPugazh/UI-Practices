@@ -155,13 +155,13 @@ button.btn:hover {
 }
 @media only screen and (max-width: 880px) {
   .sideBar {
-    width: 100%;
+    width: 95%;
+    margin: 10px 10px 0px 10px;
   }
   .main-container {
     flex-direction: column;
-  }
-  .navbar {
-    margin: 0px 20px 0px 20px;
+    margin: 10px 10px 0px 10px;
+    width: 96%;
   }
 
   .navbar > .container-fluid {
@@ -172,8 +172,20 @@ button.btn:hover {
     justify-content: flex-start !important;
     align-content: space-between !important;
   }
+  .list-group li {
+    justify-content: space-between;
+  }
   button.navbar-toggler {
     margin: 0px 10px 10px 50%;
     background-color: white;
+  }
+  .StudentName {
+    margin-right: 30px;
+  }
+  .checkBox-container {
+    width: 50%;
+  }
+  .rightContainer-1 {
+    height: 60%;
   }
 }
