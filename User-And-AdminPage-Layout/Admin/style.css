@@ -1,0 +1,179 @@
+html body {
+  color: #1b263b;
+  font-size: 1rem;
+  height: 100vh;
+  width: 100vw;
+}
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #264653;
+}
+button.btn {
+  background-color: antiquewhite;
+  border: none;
+  color: #002030;
+}
+button.btn:hover {
+  background-color: #002030;
+  color: white;
+}
+.color-white {
+  color: white;
+  background-color: #264653;
+}
+
+.navbar.container-fluid {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+.d-flex {
+  margin-right: 30px;
+}
+/* mainContainer */
+.main-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  background-color: #e3d5ca;
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+}
+.sideBar1 {
+  width: 100%;
+  height: 40%;
+  background-color: #264653;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sideBar1 img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.sideBar2 {
+  margin-top: 20px;
+  height: 100%;
+}
+.menu-item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  height: 70%;
+  justify-content: space-between;
+  height: 100%;
+}
+.icon-size {
+  font-size: 30px;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+}
+.menu {
+  margin-left: 10px;
+  padding: 5px;
+}
+.menu:hover {
+  cursor: pointer;
+
+  border-radius: 5px;
+  background-color: #002030;
+  color: white;
+}
+/* rightContainer */
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 30px 20px 0px;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.rightContainer-1 {
+  width: 100%;
+  height: 40%;
+  background-color: #e3d5ca;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.rightContainer-2 {
+  width: 100%;
+  height: 100%;
+  background-color: #e3d5ca;
+
+  border-radius: 10px;
+}
+.card {
+  border-radius: 10px;
+  background-color: #e3d5ca !important;
+  border: none !important;
+}
+.card-header {
+  background-color: #264653 !important;
+  color: white !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-group li {
+  background-color: #e3d5ca !important;
+  border-color: gray !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checkBox-container {
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  justify-content: space-around;
+}
+.form-check-input:checked {
+  background-color: #34b233 !important;
+  border-color: #34b233 !important;
+}
+.StudentName:hover {
+  cursor: pointer;
+  font-weight: 300;
+}
+@media only screen and (max-width: 880px) {
+  .sideBar {
+    width: 100%;
+  }
+  .main-container {
+    flex-direction: column;
+  }
+  .navbar {
+    margin: 0px 20px 0px 20px;
+  }
+
+  .navbar > .container-fluid {
+    display: flex !important;
+
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start !important;
+    align-content: space-between !important;
+  }
+  button.navbar-toggler {
+    margin: 0px 10px 10px 50%;
+    background-color: white;
+  }
+}
